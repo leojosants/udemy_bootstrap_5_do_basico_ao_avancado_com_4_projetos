@@ -41,3 +41,15 @@ h1 {
 .btn-primary {
     background-color: red;
 }
+
+body {
+    background-color: rgba(204, 139, 59, 0.658);
+}
+
+.container {
+    background-color: rgba(128, 128, 128, 0.381);
+}
+
+.container-fluid {
+    background-color: rgba(220, 220, 220, 0.655);
+}
