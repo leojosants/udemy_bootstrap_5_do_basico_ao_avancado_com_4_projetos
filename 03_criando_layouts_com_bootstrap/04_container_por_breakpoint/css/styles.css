@@ -1,0 +1,14 @@
+.container-sm {
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+
+.container-md {
+    border: 1px solid crimson;
+    margin-bottom: 30px;
+}
+
+.container-lg {
+    border: 1px solid chocolate;
+    margin-bottom: 30px;
+}
