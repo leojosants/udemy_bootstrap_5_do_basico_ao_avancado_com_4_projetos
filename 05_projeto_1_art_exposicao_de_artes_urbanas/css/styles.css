@@ -33,7 +33,7 @@ a, i {
     background-color: var(--color-25282E);
     color: var(--color-FFFFFF);
     padding: 7px 18px;
-    border-radius: 0;
+    border-radius: 5px;
 }
 
 .btn:hover {
@@ -74,5 +74,20 @@ a, i {
 
 #navbar a:hover {
     color: var(--color-C1B696);
-    border: 1px solid red;
+}
+
+.main-image {
+    height: 400px;
+    background-image: url('../images/g_1.jpg');
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: var(--color-FFFFFF);
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    border-radius: 5px;
 }
