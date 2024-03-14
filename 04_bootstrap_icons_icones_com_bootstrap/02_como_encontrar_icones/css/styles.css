@@ -1,0 +1,11 @@
+.bi {
+    font-size: 60px;
+}
+
+.bi.red {
+    color: red;
+}
+
+.bi.blue {
+    color: blue;
+}
