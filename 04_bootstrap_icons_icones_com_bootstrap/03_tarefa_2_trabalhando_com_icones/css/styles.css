@@ -1,0 +1,25 @@
+.col {
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col .airplane {
+    font-size: 40px;
+    color: red;
+    margin-right: 20px;
+}
+
+.col .apple {
+    font-size: 70px;
+    color: blue;
+    margin-right: 20px;
+}
+
+.col .thermometer-sun {
+    font-size: 100px;
+    color: green;
+    margin-right: 20px;
+}
