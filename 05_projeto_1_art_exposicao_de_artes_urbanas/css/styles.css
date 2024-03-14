@@ -38,6 +38,7 @@ a, i {
 
 .btn:hover {
     background-color: var(--color-333333);
+    color: var(--color-FFFFFF);
 }
 
 /* header */
@@ -83,13 +84,17 @@ a, i {
     position: relative;
 }
 
+.main-image,
+.main-image-info {
+    border-radius: 5px;
+}
+
 .main-image-info {
     background-color: var(--color-FFFFFF);
     padding: 25px;
     position: absolute;
     left: 25px;
     bottom: 25px;
-    border-radius: 5px;
 }
 
 /* gallery */
@@ -110,6 +115,13 @@ a, i {
     background-image: url('../images/g_5.jpg');
 }
 
+#img2,
+#img3,
+#img4,
+#img5 {
+    border-radius: 5px;
+}
+
 #gallery-container h1 {
     text-align: center;
 }
@@ -123,5 +135,4 @@ a, i {
 .small-image-container {
     height: 250px;
     margin-bottom: 20px;
-    border: 1px solid red;
 }
