@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.row {
+    border: 1px solid blue;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col-4 {
+    border: 1px solid orange;
+}
+
+.par,
+.impar {
+    border: 1px solid green;
+}
+
+.par {
+    background-color: yellow;
+}
+
+.impar {
+    background-color: crimson;
+}
