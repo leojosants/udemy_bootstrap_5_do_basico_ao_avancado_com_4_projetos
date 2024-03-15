@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulários</title>
+
+		<!-- cdn bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+
+		<!-- css local -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="m-4">
+			<h1>Input de escala (range)</h1>
+
+			<form>
+				<div class="col-4 mb-4">
+					<h3>Responda</h3>
+
+					<label class="form-label" for="probability"
+						>Qual a probabilidade de indicação?</label
+					>
+
+					<input
+						class="form-range"
+						type="range"
+						name="probability"
+						id="probability"
+						min="0"
+						max="5"
+						aria-describedby="probabilityHelp"
+					/>
+					<div id="probabilityHelp">
+						0 - Nada provável <br />
+						1 - Menos provável <br />
+						2 - Pouco Provável <br />
+						3 - Bem provável <br />
+						4 - Mais provável <br />
+						5 - Bastante provável
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
