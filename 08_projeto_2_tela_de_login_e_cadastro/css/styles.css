@@ -1,0 +1,82 @@
+:root {
+    --color-F8F8F8: #F8F8F8;
+    --color-FFFFFF: #FFFFFF;
+    --color-CCCCCC: #CCCCCC;
+    --color-222222: #222222;
+    --color-6C63FF: #6C63FF;
+    --color-rgba-0-0-0-dot2: #00000033;
+}
+
+body {
+    background-color: var(--color-F8F8F8);
+}
+
+/* form */
+#form-container {
+    background-color: var(--color-FFFFFF);
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px var(--color-rgba-0-0-0-dot2);
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#form-container h2 {
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container a {
+    color: var(--color-222222);
+    transition: .5s;
+}
+
+#form-container a:hover {
+    color: var(--color-6C63FF);
+}
+
+#form-container form {
+    padding-bottom: 0;
+}
+
+#form-container .form-control {
+    border: none;
+    border-bottom: 1px solid var(--color-CCCCCC);
+    border-radius: 0;
+}
+
+#form-container .form-control:focus {
+    box-shadow: none;
+}
+
+#form-container .form-floating label {
+    color: var(--color-CCCCCC);
+}
+
+#form-container .form-floating > .form-control:focus~label {
+    color: var(--color-222222);
+}
+
+#form-container input[type="submit"] {
+    background-color: var(--color-6C63FF);
+    border-color: var(--color-6C63FF);
+}
+
+/* image */
+.row.align-items-center {
+    align-content: center;
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#link-container {
+    text-align: center;
+    padding-top: 50px;
+    /* border: 1px solid red; */
+}
