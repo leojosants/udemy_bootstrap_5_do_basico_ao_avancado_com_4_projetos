@@ -67,6 +67,10 @@ body {
     border-color: var(--color-6C63FF);
 }
 
+.btn.btn-primary {
+    width: 100%;
+}
+
 /* image */
 .row.align-items-center {
     align-content: center;
@@ -75,8 +79,29 @@ body {
     padding-bottom: 75px;
 }
 
+.col-md-6.order-md-1 {
+    padding-top: 50px;
+}
+
 #link-container {
     text-align: center;
     padding-top: 50px;
-    /* border: 1px solid red; */
+}
+
+/* media query - tablet*/
+@media(min-width: 768px) {
+    #form-container {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-bottom: 50px;
+        margin-right: auto;
+    }
+
+    .btn.btn-primary {
+        width: auto;
+    }
+
+    .col-md-6.order-md-1 {
+        padding-top: 0;
+    }
 }
