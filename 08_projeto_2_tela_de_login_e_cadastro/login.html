@@ -32,5 +32,57 @@
 		<!-- css local -->
 		<link rel="stylesheet" href="css/styles.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="container col-11 col-md-9" id="form-container">
+			<div class="row align-items-center gx-5">
+				<div class="col-md-6 order-md-2">
+					<h2>Faça o login para continuar</h2>
+
+					<form>
+						<div class="form-floating mb-3">
+							<input
+								class="form-control"
+								type="email"
+								id="email"
+								name="email"
+								placeholder="Digite o e-mail"
+							/>
+							<label class="form-label" for="email"
+								>Digite o e-mail</label
+							>
+						</div>
+
+						<div class="form-floating mb-3">
+							<input
+								class="form-control"
+								type="password"
+								id="password"
+								name="password"
+								placeholder="Digite a senha"
+							/>
+							<label class="form-label" for="password"
+								>Digite a senha</label
+							>
+						</div>
+
+						<input class="btn btn-primary" type="submit" value="Entrar" />
+					</form>
+				</div>
+
+				<div class="col-md-6 order-md-1">
+					<div class="col-12">
+						<img
+							class="img-fluid"
+							src="images/sign_in.svg"
+							alt="Entrar no sistema"
+						/>
+					</div>
+
+					<div class="col-12" id="link-container">
+						<a href="register.html">Ainda não tenho cadastro</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
