@@ -62,13 +62,15 @@ body {
     color: var(--color-222222);
 }
 
-#form-container input[type="submit"] {
+#form-container input[type="submit"],
+#form-container input[type="checkbox"]:checkd {
     background-color: var(--color-6C63FF);
     border-color: var(--color-6C63FF);
 }
 
 .btn.btn-primary {
     width: 100%;
+    margin-top: 25px;
 }
 
 /* image */
@@ -86,6 +88,11 @@ body {
 #link-container {
     text-align: center;
     padding-top: 50px;
+}
+
+#link-container a,
+.form-check-label a {
+    text-decoration: none;
 }
 
 /* media query - tablet*/
