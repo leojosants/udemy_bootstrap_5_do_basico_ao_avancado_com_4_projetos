@@ -1,0 +1,13 @@
+.card {
+    width: 200px;
+}
+
+#card-banner {
+    width: 800px;
+}
+
+.card-banner__body {
+    background-image: url("https://via.placeholder.com/500");
+    background-position: center;
+
+}
