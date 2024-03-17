@@ -49,15 +49,15 @@ body {
 /* navbar */
 #navbar .navbar-nav {
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: end;
 }
 
 #navbar .navbar-nav li {
     margin-left: 1em;
 }
 
-#navbar .navbar-nav a, 
-#navbar .navbar-nav button {
+#navbar a, 
+#navbar button {
     color: var(--color-FFFFFF);
 }
 
@@ -101,8 +101,8 @@ body {
 }
 @media(min-width: 768px) {
     #navbar-items {
-        min-width: 80%;
         display: flex;
+        min-width: 80%;
     }
 }
 
@@ -132,6 +132,7 @@ body {
 #search-form input {
     background-color: transparent;
     border: none;
+    color: var(--color-FFFFFF);
 }
 
 #search-form input::placeholder {
