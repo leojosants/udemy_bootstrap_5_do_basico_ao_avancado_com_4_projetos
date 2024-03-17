@@ -49,7 +49,7 @@ body {
 /* navbar */
 #navbar .navbar-nav {
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 #navbar .navbar-nav li {
@@ -115,7 +115,7 @@ body {
 }
 @media(min-width: 768px) {
     #search-form {
-        min-width: 50%;
+        width: 50%;
         margin: 0;
     }
 }
@@ -140,4 +140,18 @@ body {
 
 #search-form input:focus {
     box-shadow: none;
+}
+
+/* bottom navbar */
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+    font-weight: 600;
+    color: var(--color-FFFFFF);
+}
+
+.navbar-toggler {
+    font-size: 1.5em;
 }
