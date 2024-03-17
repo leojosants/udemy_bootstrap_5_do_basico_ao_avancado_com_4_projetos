@@ -308,3 +308,33 @@ body {
     background-color: var(--color-C09578);
     border-color: var(--color-C09578);
 }
+
+/* bottom banner */
+#bottom-banner {
+    background-color: var(--color-101010);
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+#bottom-banner .offer-subtitle,
+#bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    #bottom-banner h2 {
+        font-size: 6em;
+  
+    }
+}
+
+#bottom-banner .btn {
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#bottom-banner img {
+    max-width: 175px;
+}
