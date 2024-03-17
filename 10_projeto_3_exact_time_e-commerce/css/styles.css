@@ -410,3 +410,59 @@ body {
 #insta6 {
     background-image: url('../images/insta6.jpg');
 }
+
+/* footer */
+#footer-links-container {
+    border: 1px solid var(--color-626262);
+}
+
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    #footer .footer-column {
+        padding-top: 5em;
+        padding-right: 2em;
+        padding-bottom: 5em;
+        padding-left: 2em;
+    }   
+}
+
+#footer-links-container h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#footer-links-container li {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+#footer-links-container a {
+    text-decoration: none;
+}
+
+#footer-links-container a:hover {
+    color: var(--color-C09578);
+}
+
+#footer-center {
+    border-left: 1px solid var(--color-626262);
+    border-right: 1px solid var(--color-626262);
+}
+
+#footer-center h3 {
+    font-weight: 900;
+}
+
+#footer-center .store-phone {
+    color: var(--color-C09578);
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: -15px;
+    /* border: 1px solid red; */
+}
