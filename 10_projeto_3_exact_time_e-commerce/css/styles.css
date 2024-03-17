@@ -1,0 +1,46 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --color-252525: #252525;
+    --color-101010: #101010;
+    --color-FFFFFF: #FFFFFF;
+    --color-FCF5EB: #FCF5EB;
+    --color-C09578: #C09578;
+    --color-626262: #626262;
+}
+
+body {
+    background-color: var(--color-252525);
+    color: var(--color-FFFFFF);
+}
+
+.primary-bg-color {
+    background-color: var(--color-252525);
+
+}
+
+.secondary-bg-color {
+    background-color: var(--color-C09578);
+}
+
+.light-bg-color {
+    background-color: var(--color-FCF5EB);
+}
+
+.dark-bg-color {
+    background-color: var(--color-101010);
+}
+
+.primary-color {
+    color: var(--color-C09578);
+}
+
+.secondary-color {
+    color: var(--color-626262);
+}
+
+.light-color {
+    color: var(--color-FCF5EB);
+}
