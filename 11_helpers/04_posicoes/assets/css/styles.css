@@ -1,0 +1,14 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.box-sticky,
+.box-fixed {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box-fixed {
+    background-color: red;
+}
