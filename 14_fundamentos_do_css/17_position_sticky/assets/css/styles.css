@@ -1,0 +1,45 @@
+.position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right: 0;
+    top: 0;
+}
+
+.mini-div {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+}
+
+.fixed {
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 0px;
+}
