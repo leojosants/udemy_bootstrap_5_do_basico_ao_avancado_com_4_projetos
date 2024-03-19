@@ -1,0 +1,10 @@
+.position{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-bottom: 1px solid black;
+}
+
+.static {
+    position: static;
+}
