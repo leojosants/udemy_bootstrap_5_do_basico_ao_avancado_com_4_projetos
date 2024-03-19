@@ -1,0 +1,29 @@
+/* comentário de linha */
+
+/* 
+    comentário
+    de
+    bloco
+*/
+
+/* 
+    sintaxe
+
+    seletor {
+        propriedade: valor;
+    }
+*/
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
