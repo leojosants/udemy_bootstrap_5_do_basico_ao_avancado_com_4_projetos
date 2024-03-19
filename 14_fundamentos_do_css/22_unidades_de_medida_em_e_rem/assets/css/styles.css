@@ -1,0 +1,66 @@
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+
+.father-percentage {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+.percentage-1 {
+    background-color: crimson;
+    width: 50%;
+    height: 50%;
+}
+
+.percentage-2 {
+    background-color: greenyellow;
+    width: 50%;
+    height: 50%;
+    
+}
+
+/* 
+    em * px do elemento pai 
+    1em * 50px = 100px    
+    0.5em * 50px = 25px    
+*/
+
+.father-em {
+    font-size: 50px;
+}
+    
+.em-1 {
+    background-color: cornflowerblue;
+    width: 1em;
+    height: 1em;
+}
+
+/* 
+    rem * px do elemento raiz html (16px)
+    1rem * 16px = 16px    
+    0.5rem * 16px = 8px    
+*/
+
+html {
+    font-size: 20px;
+}
+
+.rem-1 {
+    background-color: purple;
+    width: 1rem;
+    height: 1rem;
+}
+
+.rem-2 {
+    font-size: 2rem;
+}

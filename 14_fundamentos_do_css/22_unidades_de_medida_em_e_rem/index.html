@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unidades de medida: em e rem</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+	</head>
+	<body>
+		<div>
+			<!-- tamanho fixo -->
+			<p>Medidas em pixels</p>
+			<div class="pixel-1"></div>
+			<div class="pixel-2"></div>
+		</div>
+
+		<div class="father-percentage">
+			<!-- utiliza a medida do elemento pai -->
+			<p>Medidas em %</p>
+			<div class="percentage-1">
+				<div class="percentage-2"></div>
+			</div>
+		</div>
+
+		<div class="father-em">
+			<!-- layouts responsivos - medidas em relação a font size do elemento pai-->
+			<p>Medidas em em</p>
+			<div class="em-1"></div>
+		</div>
+
+		<div>
+			<!-- layouts responsivos - medidas em relação a font size do elemento raiz html (default 16px) -->
+			<p class="rem-2">Medidas em rem</p>
+			<div class="rem-1"></div>
+		</div>
+	</body>
+</html>
