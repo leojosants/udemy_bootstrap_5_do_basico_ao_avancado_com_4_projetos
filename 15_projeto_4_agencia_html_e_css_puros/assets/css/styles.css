@@ -7,6 +7,8 @@
     --color-2364AA: #2364AA;
     --color-3DA5D9: #3DA5D9;
     --color-73BFB8: #73BFB8;
+    --color-AAAAAA: #AAAAAA;
+    --color-888888: #888888;
 }
 
 html {
@@ -169,8 +171,41 @@ html {
 }
 
 /* about */
-.footer-container {}
+.footer-container {
+    background-image: url('../images/rodape.jpg');
+    background-position: center;
+}
 
-.about-container {}
+.about-container {
+    max-width: 1200px;
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
 
-.about-card {}
+.about-card {
+    float: left;
+    width: 30%;
+    padding: 30px;
+    background-color: var(--color-FFFFFF);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.middle-card {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-card i {
+    font-size: 50px;
+    color: var(--color-AAAAAA);
+}
+
+.about-card p {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-888888);
+    text-align: left;
+}
