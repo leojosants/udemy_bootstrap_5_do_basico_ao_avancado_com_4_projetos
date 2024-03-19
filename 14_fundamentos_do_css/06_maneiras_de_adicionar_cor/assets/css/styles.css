@@ -1,0 +1,39 @@
+/* 
+    classe = . (dot)
+    id = # (hastag)
+*/
+
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+.p-text {
+    color: chocolate;
+}
+
+#titulo-app {
+    color: purple;
+}
+
+/* Maneiras de adicionar cor */
+.name {
+    color: rgb(0, 255, 38);
+}
+
+.hexadecimal {
+    color: #00ffbf;
+}
+
+.rgba {
+    color: rgba(179, 184, 85, 0.833);
+}
