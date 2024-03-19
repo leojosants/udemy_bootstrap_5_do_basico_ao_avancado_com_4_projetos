@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.box-model {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    /* geral */
+    padding: 20px;
+
+    /* especifico */
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    
+    /* especifico agrupado */
+    padding: 20px 20px 20px 20px;
+    
+    /* 
+        especifico agrupado 3 medidas 
+        padding: top right_e_left bottom
+    */
+    padding: 30px 20px 5px;
+    
+    /* 
+        especifico agrupado 2 medidas 
+        padding: top_e_bottom right_e_left 
+    */
+    padding: 30px 20px;
+}
+
+.paragraph {
+    margin: 0;
+}
