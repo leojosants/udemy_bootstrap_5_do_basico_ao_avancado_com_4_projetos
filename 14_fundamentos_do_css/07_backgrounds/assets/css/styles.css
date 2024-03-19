@@ -1,0 +1,10 @@
+.div-background {
+    background-image: url('../images/logo_html5.jpg');
+    height: 300px;
+}
+
+.title-background {
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
