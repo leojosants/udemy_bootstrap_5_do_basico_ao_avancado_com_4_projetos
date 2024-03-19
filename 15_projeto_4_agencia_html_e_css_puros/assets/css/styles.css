@@ -22,6 +22,7 @@ html {
     height: 600px;
     background-image: url('../images/capa2.jpg');
     background-position: center;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -175,6 +176,7 @@ html {
 .footer-container {
     background-image: url('../images/rodape.jpg');
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .about-container {
@@ -286,4 +288,17 @@ footer {
     background-color: var(--color-FFFFFF);
     color: var(--color-222222);
     border: 1px solid var(--color-222222);
+}
+
+.copyright {
+    color: var(--color-222222);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
