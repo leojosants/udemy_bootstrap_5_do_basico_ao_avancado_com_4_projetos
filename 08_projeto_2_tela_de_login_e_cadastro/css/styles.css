@@ -93,6 +93,7 @@ body {
 #link-container a,
 .form-check-label a {
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* media query - tablet*/
